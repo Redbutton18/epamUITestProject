@@ -6,6 +6,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
@@ -31,7 +32,7 @@ public class BaseTest {
 //    }
 
     @Parameters({"browser"})
-    @BeforeTest
+    @BeforeMethod
     public void setUp(String browserName){
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("enableVNC", true);
