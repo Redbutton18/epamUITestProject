@@ -3,7 +3,7 @@
 
 <suite name="EPAM home page tests"
        thread-count="3" parallel="tests" verbose="3">
-    <test name="Home page tests - Chrome">
+    <test name="Tests - Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.epam.homePageTests.HomePageTests"></class>
@@ -11,7 +11,7 @@
         </classes>
     </test>
 
-    <test name="Home page tests - FF">
+    <test name="Tests - FF">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.epam.homePageTests.HomePageTests"></class>
