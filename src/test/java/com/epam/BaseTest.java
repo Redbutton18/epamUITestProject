@@ -36,8 +36,8 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("firefox");
-        capabilities.setVersion("86.0");
+        //capabilities.setBrowserName("firefox");
+        //capabilities.setVersion("86.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", false);
 
