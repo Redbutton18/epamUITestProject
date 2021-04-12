@@ -43,6 +43,7 @@ public class BaseTest {
 
         driver = new RemoteWebDriver(URI.create("http://localhost:4444/wd/hub").toURL(),
         capabilities);
+        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
     }
 
 //    @Parameters({"browser"})
