@@ -133,14 +133,14 @@
 
     </dependencies>
 
-    <profiles>
-        <profile>
-            <id>regression</id>
-            <properties>
-                <suite.xml.file>src/main/resources/runners/runner.xml</suite.xml.file>
-            </properties>
-        </profile>
-    </profiles>
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>regression</id>-->
+<!--            <properties>-->
+<!--                <suite.xml.file>src/main/resources/runners/runner.xml</suite.xml.file>-->
+<!--            </properties>-->
+<!--        </profile>-->
+<!--    </profiles>-->
 
     <reporting>
         <excludeDefaults>true</excludeDefaults>
